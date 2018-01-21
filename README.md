@@ -46,7 +46,9 @@ Now `v.insert( v.end(), 100 )` can be replaced by one of the following calls wit
 
 As part of the implementation, this library wraps named parameter calls in a trivial lambda
 expression. GCC generates indentical or equivalent assemblies on optimized builds.
-TODO compiler explorer link here after publishing.
+
+A Compiler Explorer example can be found [here](https://godbolt.org/g/R4yQHb). In the example, same code
+is compiled with and without named parameter wrappers, and assemblies can be compared in diff view.
 
 ## Building
 
