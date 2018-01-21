@@ -6,7 +6,8 @@ function they want to use with named parameters.
 
 ## Usage
 
-Obtain `cpp_named_parameters.hpp` from releases page and include it in your project.
+Obtain a version of `named_parameters.hpp` from [release page](https://github.com/mserdarsanli/cpp_named_parameters/releases)
+and include it in your project.
 If you want to build it yourself, follow instructions at [Building](#building) section.
 
 The header file contains macros which help writing wrappers with named parameters.
